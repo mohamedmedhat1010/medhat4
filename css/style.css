@@ -1,0 +1,147 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+
+/* start header section  */
+ .header-home{
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+    height: 600px;
+    
+ }
+
+.header-home h2 {
+background-color: hsl(158.1deg 27.04% 54.31%);
+    border-radius: 26px;
+    padding: 30px;
+    font-size: 43px;
+    color: #fff;
+    line-height: 1.7;
+    margin-top: 60px;
+}
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .header-home h2 {
+        font-size:34px ;
+    }
+}  
+
+/* end header section  */
+
+
+/* start section clinic */
+
+.section-home .row .col-md-12 h2 {
+    color: hsl(187.17deg 38.33% 52.94%);
+    font-family: cursive;
+    font-size: 30px;
+}
+.section-home .row .col-md-12 hr {
+    width: 176px;
+    height: 3px;
+    background-color: hsl(30.86deg 82.68% 50.2%);
+    margin: auto;
+} 
+
+.section-home .row .col-md-6 h4 {
+    color: hsl(184.62deg 36.84% 48.43%);
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+
+
+/* end section clinic */
+/* start artical sec  */
+.about{
+    background-image:  url(../img/Path\ 62.png), url(../img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    height: fit-content; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+
+
+
+
+.article-home .col-md-12 h5 {
+  text-align: center;
+  color: white;
+  margin-top: 66px;
+  font-family: cursive;
+  word-spacing: 7px;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+ 
+
+  .article-home .row .col-lg-3 h3 {
+    color: #72b4b8;
+    font-size: 18px;
+    font-family: fangsong;
+    margin-top: 20px;
+  }
+  .article-home .row .col-lg-3 p {
+    font-size: 14px;
+    margin-top: 13px;
+  }
+  /* @media only scren and (min-width:768px) and (max-width:992px){
+    .about {
+        height: 900px;
+    }
+  } */
+
+  
+/* end artical sec  */
+/* start user sec  */
+.user-home .row{
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+
+}
+  .user-home .col-md-3 {
+    width: 15%;
+  }
+  .user-home .col-md-3 img{
+    width: 100%;
+  }
+/* end user sec  */
+/* start footer sec  */
+footer {
+    background-color: #0f7b65;
+    height: 400px;
+    border-radius: 190px 190px 0px 0px;
+    
+
+}
+   footer .row {
+    justify-content: space-between;
+padding-top: 100px;
+color: #fff;
+
+   }
+   footer .col-mid-2 h3{
+    color: #ef8b75;
+    margin-bottom: 36px;
+   }
+  
+/* end footer sec  */
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    footer {
+        height: fit-content;
+        background-color: #0f7b65;
+    }
+  }
